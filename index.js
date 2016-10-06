@@ -10,6 +10,12 @@
 * It should be a String.
 **/
 
+var firstName = "Vasana";
+var lastName = "Chiu";
+var birthPlace = "Thailand";
+console.log (firstName);
+console.log (lastName);
+console.log (birthPlace);
 
 
 /**
@@ -22,6 +28,10 @@
 * Their values should be a Number
 **/
 
+var favoriteNumber = 1;
+var currentYear = 2016;
+var thatOnePrinceSong = 1999;
+console.log(favoriteNumber,currentYear,thatOnePrinceSong);
 
 
 /**
@@ -34,7 +44,12 @@
 * Their values should be a Boolean
 **/
 
+var isDaytime = true;
+var isLeftHanded = false;
+var inHawaii = true;
+var isHappyCoding = true;
 
+console.log (isDaytime,isLeftHanded,inHawaii,isHappyCoding);
 
 /**
 * #4
@@ -45,7 +60,9 @@
 * Their values should be a Null value
 **/
 
-
+var enrolledAtDevLeague = null;
+var completedFridayPrep = null;
+console.log(enrolledAtDevLeague,completedFridayPrep);
 
 /**
 * #5a
@@ -56,7 +73,8 @@
 * which can be found along the west coast of The United States.
 **/
 
-
+var westCoast = ["California","Oregon","Washington"];
+console.log(westCoast);
 
 /**
 * #5b
@@ -67,6 +85,8 @@
 * Have at least ten even values in this array.
 **/
 
+var evenNumbers = [2,4,6,8,10,12,14,16,18,20];
+console.log(evenNumbers);
 
 
 /**
@@ -80,7 +100,12 @@
 * Extend this behavior to include subtraction, multiplication and division.
 */
 
-
+var sumOfNumbers = 3+4+5;
+console.log (sumOfNumbers);
+var differenceOfNumbers = 5-3-1;
+console.log(differenceOfNumbers);
+var results = sumOfNumbers*differenceOfNumbers;
+console.log (results);
 
 
 /**
@@ -100,7 +125,8 @@
 *   See if you can come up with a few examples of double comparison
 *   operator(==) vs triple comparison operator(===).
 */
-
+var isEqual="Tacocat"==="tacocat";
+console.log(isEqual);
 
 
 /**
@@ -118,8 +144,13 @@
 *   The tests for this section cannot test your variable as it changes,
 *   it can only test that you declared the variable by giving it the right name.
 */
-
-
+var generalContainer = 21;
+console.log (generalContainer);
+generalContainer += 5;
+console.log (generalContainer);
+generalContainer -= 10;
+console.log (generalContainer);
+	
 
 /**
 * #7a
