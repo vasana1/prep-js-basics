@@ -270,6 +270,8 @@ console.log(myBox);
 myBox %=5;
 console.log(myBox);
 
+console.log("test");
+
 /**
 * Final Boss 
 * Additional exercises designed to further challenge you and give you a jump start on the next topic that'll be covered.
