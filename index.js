@@ -283,7 +283,11 @@ console.log("test");
 * Declare a variable 'pieResult' and assign it to the function call.
 * Console.log the variable to see the result.
 **/
-
+function bakePie(ingredient){
+  return "Today's special is " + ingredient + " pie.";
+}
+var pieResult = "blueberry";
+console.log(bakePie(pieResult));
 
 /**
 * Declare a Function named `jump` which has a single parameter, `height`.
@@ -298,4 +302,7 @@ console.log("test");
 * This function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
-
+function cook(ingredient1, ingredient2, recipeName){
+  return ingredient1 + " and " + ingredient2 + " make a " + recipeName;
+}
+console.log(cook("Tomatoes", "Cheese", "Pizza!"));
